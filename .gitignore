@@ -1,0 +1,31 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project specific
+.env
+main.tf
+.idea
+.terraform
+.terraform.lock.hcl
+*.tfstate*
+.gateway_url
+.image_digest
+.tus*
+dist
+.tus_server_url
+key.json
+react-simple-upload
+venv
